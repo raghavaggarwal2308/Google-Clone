@@ -1,0 +1,77 @@
+#full{
+    /* border: 1px solid red; */
+}
+#nav{
+    float: right;
+}
+#nav ul li{
+    display: inline;
+    list-style-type:none;
+    padding-right: 0.7vw;
+    font-size: 1.05em;
+}
+#nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+#nav ul li img{
+    border-radius: 50%;
+    width: 35px;
+    vertical-align: middle;
+    margin-bottom: 1vh;
+}
+#complete{
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%,-50%);
+    /* border: 1px solid green; */
+}
+#google img{
+    display: block;
+    width: 21vw;
+    height: auto;
+    margin: auto;
+}
+#search img{
+    width:0.9vw;
+    height:2.3vh;
+} 
+#search{
+    padding: 10px 20px;
+    border: 1px solid lightgray;
+    border-radius: 50px;
+}
+#search input{
+    border: none;
+    outline: none;
+    background:none;
+    margin: 0px 10px;
+    width: 32vw;
+}
+#button{
+    text-align: center;
+    margin-top: 1.5vh;
+}
+#button button{
+    padding: 9px;
+    border-color: transparent;
+    border-radius:5px;
+    margin: 10px;
+    background-color: rgba(240, 240, 240, 0.6);
+    color: gray;
+}
+#language ul{
+    margin: 1em;
+    padding: 0;
+    text-align: center;
+}
+#language ul li{
+    display: inline;
+    list-style-type:none;
+    padding-right: 0.3vw;
+    font-size: small;
+}
+#language ul li a{
+    text-decoration: none;
+}
